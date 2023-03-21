@@ -2,10 +2,10 @@
 	p {
 		text-align: center;
 	}
-	.item {
+	.items {
 		color: blue;
 	}
 	body {
-		background-color: rgb(123,154,110);
+		background-color: red;
 	}
 </style>
