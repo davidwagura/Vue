@@ -7,7 +7,7 @@ new Vue({
     subject_english: 0,
     subject_kiswahili: 0,
     students: [],
-    student:''
+    heads: ['First Name','Second Name','Math','English','Kiswahili','Average']
   },
   computed: {
    average() {

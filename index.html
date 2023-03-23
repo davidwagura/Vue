@@ -18,20 +18,13 @@
       Mathematics:       <input type="text" placeholder="score" v-model="subject_math"><br>
       English:     <input type="text" placeholder="score" v-model="subject_english"><br>
       Kiswahili:   <input type="text" placeholder="score" v-model="subject_kiswahili"><br>
-      Average:   <input type="text" placeholder="score" v-model="average"><br>
-
 
       <button v-on:click="addtext">Submit</button> </br>
 
       <div class="app">
         <table border = "1" cellpadding = "5" cellspacing = "5">
-          <tr>
-            <th>First Name</th>
-            <th>Second Name</th>
-            <th>Mathematics</th>
-            <th>English</th>
-            <th>Kiswahili</th>
-            <th>Average</th>
+          <tr >
+            <th v-for="head in heads">{{ head }}</th>
           </tr>
           <tr  v-for="student in students">
             <td> {{  student.firstname }}</td>
@@ -39,8 +32,7 @@
             <td> {{  student.mathematics }}</td>
             <td> {{  student.english }}</td>
             <td> {{  student.kiswahili }}</td>
-            <td> {{  student.average }}</td>
-
+            <td> {{ student.average }}</td>
           </tr>
         </table>
       </div>
