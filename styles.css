@@ -4,12 +4,14 @@
 	}
 	.items {
 		color: blue;
-	}
+		text-align: center;
+		}
 	body {
 		background-color: pink;
 	}
 	.app {
 		text-align: center;
+		background-color: pink;
 	}
 	.button {
 		text-align: center;
@@ -17,6 +19,5 @@
 		margin-bottom: 30;
 	}
 	.color {
-		background-color: pink;
 	}
 </style>
