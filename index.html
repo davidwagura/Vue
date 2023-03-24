@@ -11,16 +11,15 @@
 
   </head>
   <body>
-    <h1 style="text-align:center";><u><b>Performance data entry</b></u></h1>
+    <h1 style="text-align:center; background-color:pink";><u><b>Performance data entry</b></u></h1>
     <div id="app">
       <div class="color">
         <div class="items">
-
-        First Name:  <input type="text" placeholder="name" v-model="first_name" style="background-color:#DCDCDC; height:40px"><br>
-        Second Name: <input type="text" placeholder="name" v-model="second_name"><br>
-        Mathematics: <input type="text" placeholder="score" v-model="subject_math"><br>
-        English:     <input type="text" placeholder="score" v-model="subject_english"><br>
-        Kiswahili:   <input type="text" placeholder="score" v-model="subject_kiswahili"><br>
+        First Name:  <input type="text" placeholder="name" v-model="first_name" style="margin-bottom: 5"><br>
+        Second Name: <input type="text" placeholder="name" v-model="second_name" style="margin-bottom: 5"><br>
+        Mathematics: <input type="text" placeholder="score" v-model="subject_math" style="margin-bottom: 5"><br>
+        English:     <input type="text" placeholder="score" v-model="subject_english" style="margin-bottom: 5"><br>
+        Kiswahili:   <input type="text" placeholder="score" v-model="subject_kiswahili" style="margin-bottom: 5"><br>
         </div>
         <div class="button">
           <button style="background-color:blue;	border-radius: 40px; font-size: 24px;" v-on:click="addtext">Submit</button> </br>
