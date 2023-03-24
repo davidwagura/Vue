@@ -4,16 +4,19 @@
 	}
 	.items {
 		color: blue;
-		background-color: rgb(145,236,144);
 	}
 	body {
-		background-color: red;
+		background-color: pink;
 	}
 	.app {
-		background-color: pink;
+		text-align: center;
 	}
 	.button {
 		text-align: center;
-	  margin-top: 300;
+	  margin-top: 10;
+		margin-bottom: 30;
+	}
+	.color {
+		background-color: pink;
 	}
 </style>
