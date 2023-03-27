@@ -1,6 +1,6 @@
 "Vue"
 <h2>About the website</h2>
-The end goal of creating this website is to  minimize the amount of time wasted inputting and calculate average scores in learning institutions.
+The end goal of creating this website is to  reduce the amount of time wasted inputting and calculating average scores in learning institutions.
 <h2>Technologies used</h2>
 The Technologies that I used when working on the project were:
 <li>
