@@ -11,4 +11,4 @@ The Technologies that I used when working on the project were:
 2. JavaScript(Vue)
     I learned JavaScript(Vue) from freecodecamp  <a href="https://www.freecodecamp.org">freecodecamp.com</a>and I was also assisted by Software Engineer Felex Kemboi  <a href="https://github.com/felexkemboi">github.com</a>
 ##  Live demo
-* The website is deployed and running on github pages <a href="https://davidwagura.github.io/Vue/">github.com</a>.
+The website is deployed and running on github pages <a href="https://davidwagura.github.io/Vue/">github.com</a>
