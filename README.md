@@ -10,6 +10,6 @@ The Technologies that I used when working on the project were:
       - <a href="https://www.freecodecamp.org">Freecodecamp</a>
       - <a href="https://www.w3schools.com">W3 schools</a>
 2. JavaScript(Vue)
-    I learned JavaScript(Vue) from <a href="https://www.freecodecamp.org">freecodecamp</a>and I was also assisted by Software Engineer <a href="https://github.com/felexkemboi">Felex Kemboi</a>
+    I learned JavaScript(Vue) from <a href="https://www.freecodecamp.org">freecodecamp</a> and I was also assisted by Software Engineer <a href="https://github.com/felexkemboi">Felex Kemboi</a>
 ##  Live demo
 The website is deployed and running on  <a href="https://davidwagura.github.io/Vue/">github</a>
