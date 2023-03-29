@@ -6,11 +6,7 @@
 		color: blue;
 		text-align: center;
 		 margin-bottom: 10px;
-
 		}
-	body {
-		background-color: pink;
-	}
 	.app {
 		text-align: center;
 	}
@@ -25,24 +21,13 @@
 	.tr {
 		background-color:red;
 	}
-	label {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  text-align: right;
-  width: 400px;
-  line-height: 26px;
-  margin-bottom: 10px;
-	display: block;
-}
-
-input {
-  height: 20px;
-  flex: 0 0 200px;
-  margin-left: 10px;
-	display: inline-table;
-}
 h1 {
 	text-align: center;
+}
+.input-spaces {
+text-align: center;
+}
+input {
+	display: inline-block;
 }
 </style>

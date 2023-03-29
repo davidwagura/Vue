@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>score sheet</title>
+    <title>Score sheet</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,7 +15,7 @@
     <div id="app">
       <div class="color">
 
-          <!-- <div class="input-group mb-3">
+          <!--<div class="input-group mb-3">
               <label for="abc">Your vanity URL</label>
               <input type="text" class="form-control" placeholder="Username" aria-label="Username" id="abc">
               <label for="abc">Your vanity URL</label>
@@ -25,21 +25,13 @@
               <label for="abc">Your vanity URL</label>
               <input type="text" class="form-control" placeholder="Username" aria-label="Username" id="abc">
           </div> -->
-      <label>
-        First Name:  <input type="text" placeholder="name" v-model="first_name" /><br>
-      </label>
-      <label>
-        Second Name: <input type="text" placeholder="name" v-model="second_name" /><br>
-      </label>
-      <label>
-        Mathematics: <input type="text" placeholder="score" v-model="subject_math" /><br>
-      </label>
-      <label>
-        English:     <input type="text" placeholder="score" v-model="subject_english" /><br>
-      </label>
-      <label>
-        Kiswahili:   <input type="text" placeholder="score" v-model="subject_kiswahili" /><br>
-      </label>
+      <div class="input-spaces">
+          First Name:  <input type="text" placeholder="name" v-model="first_name" /><br>
+          Second Name: <input type="text" placeholder="name" v-model="second_name" /><br>
+          Mathematics: <input type="text" placeholder="score" v-model="subject_math" /><br>
+          English:     <input type="text" placeholder="score" v-model="subject_english" /><br>
+          Kiswahili:   <input type="text" placeholder="score" v-model="subject_kiswahili" /><br>
+      </div>
 
         <div class="button">
         <button style="background-color:blue;	border-radius: 40px; font-size: 24px;" @click="addtext">submit</button> </br>
